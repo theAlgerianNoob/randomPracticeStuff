@@ -27,6 +27,7 @@
 	<p><ins>To write inserted text you use "ins"</ins></p>
 	<p><del> to write deleted text use "del"</del></p>
 		<hr />
+		
 		<h2>How to align texts</h2>
 		<!--This section shows how to align texts-->	
 	<p align="center">To align texts to the center,<br />Simply write after you start a paragraph with "p"<br />within its element: "p align='center'"</p align="center"> 
@@ -35,6 +36,7 @@
 		<hr width = "50%"/><!--This also changes the size of the horizontal line but in percentages i.e. half of the length-->
 	<p align = "center">This is called align attributes <br /><hr width="10%" align="right"/>it does this</p>
 		<hr />
+		
 		<h2>How to add images and how to modify there sizes</h2>
 		<!--This section shows how to add images and how to modify them-->
 	<p>To insert an image you use "img src = 'imagename.jpg'/"</p>
@@ -55,6 +57,7 @@
 	<a href ="http://www.youtube.com">YouTube</a>
 	<p>By pressing <a href ="http://www.youtube.com" target = "_blank">this Link</a> the link will open in a new tab</p>
 		<hr />
+		
 		<h2>How to make lists</h2>
 		<!--This section shows how to make a list-->
 	<p>To make an ordered list:</p>
@@ -124,6 +127,7 @@
 			</tr>
 		</table>
 		<hr />
+		
 		<h2>Block level and inline elements</h2>
 		<!--This section shows how to use Block level and inline elements-->
 	<p>Block level elements always starts from a new line, such as headers "h1", paragraphs "p" etc</p>
@@ -181,6 +185,35 @@
 	<div id="intro">
 		<p class="first">The "em" element will modify <em>This</em> word in the intro id.</p>
 	</div>
+	<hr />
+	<!--This section shows how to use forms, method and name attributes-->
+	<h2>How to get user input</h2>
+	<p>To attin a username and password from the user you need to<br />use the "form" element then declare which input type you want</p>
+	<h4>Username and Password</h4>
+	<form>
+		<p>To get the username, use the input type "text"</p>
+		<input type="text" name="text">
+		<p>To get the password, use the input type "password"</p>
+		<input type="password" name="password">
+	</form>
+	<h4>Radio Buttons</h4>
+	<form>
+		<p>To use radio buttons, simply use the input type "radio"</p>
+		<input type="radio" name="gender" value="Male">Male<br />
+		<input type="radio" name="gender" value="Female">Female<br />
+	</form>
+	<h4>Check Boxes</h4>
+	<form>
+		<p>To use checkboxes, simpley use the input type "checkbox"</p>
+			<input type="checkbox" name="gender" value="1">Male<br />
+			<input type="checkbox" name="gender" value="2">Female<br />
+	</form>
+	<h4>Submit Button</h4>
+	<form>
+		<p>To have a submit button, simply us the input type "submit"</p>
+		<input type="submit" name="submit">
+	</form>
+
 
 
 
