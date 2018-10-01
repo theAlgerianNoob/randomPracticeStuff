@@ -16,5 +16,15 @@ This is refrenced in the HTML file and will style the correct reference. This is
 */
 
 .first{font-size: 200%;}
+/*
+Class selector changing the font size
+*/
 
+#intro .first em{
+	color:pink;
+	background-color:gray;
+}
+/*
+This is Descendants Selectors
+*/
 
