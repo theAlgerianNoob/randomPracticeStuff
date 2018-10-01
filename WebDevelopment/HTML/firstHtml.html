@@ -1,0 +1,180 @@
+<html>
+<head>
+	<title>Test Page</title><!--This is to write text on the tab-->
+</head>
+<body>
+	<h1>To include headers you use "h1"</h1>
+	<h2>To change the type of headers, simply change the number between h1-h6</h2>
+		<hr /><!--This is a Horizontal Line-->
+		<h2>Different Types of texts</h2>
+		<!--This section shows how to change texts-->
+	<p>To write paragraphs you us "p" and "/p"</p>
+	<p>To add breaks <br /> simply add "br /"</p>
+	<p><b>To write the bold text you use "b"</b></p>
+	<p><big>To write big texts you use "big"</big></p>
+	<p><i>To write italic you use "i"</i></p>
+	<p><small>To write small texts use "small"</small></p>
+	<p><strong>To write strong texts you use "strong"</strong></p>
+	<p><sub>To write subscipted text you use "sub"</sub></p>
+	<p><sup>To write superscripted text you use "sup"</sup></p>
+	<p><ins>To write inserted text you use "ins"</ins></p>
+	<p><del> to write deleted text use "del"</del></p>
+		<hr />
+		<h2>How to align texts</h2>
+		<!--This section shows how to align texts-->	
+	<p align="center">To align texts to the center,<br />Simply write after you start a paragraph with "p"<br />within its element: "p align='center'"</p align="center"> 
+		<hr width = "50px"/><!--This is to change the size of the horizontal line to 50 pixel lengths-->
+
+		<hr width = "50%"/><!--This also changes the size of the horizontal line but in percentages i.e. half of the length-->
+	<p align = "center">This is called align attributes <br /><hr width="10%" align="right"/>it does this</p>
+		<hr />
+		<h2>How to add images and how to modify there sizes</h2>
+		<!--This section shows how to add images and how to modify them-->
+	<p>To insert an image you use "img src = 'imagename.jpg'/"</p>
+	<img src="Image.gif" alt=""/> 
+	<p>It also works for gifs</p>
+	<p>The image can also be resized by pixels...</p>
+	<img src="Image.gif" height ="400px" width = "328px" alt=""/> 
+	<p>Or percentages...</p>
+	<img src="Image.gif" height ="50%" width = "-50%" alt=""/> 
+	<p>If you want to be fancy, add a border:</p>
+	<img src="Image.gif" border ="1px" alt=""/> 
+	<p>You can also change the thickness of the border by changing the pixel</p>
+	<img src="Image.gif" border ="4px" alt=""/> 
+		<hr />
+		<h2>How to add links</h2>
+		<!--This section shows how to add links-->
+	<p>To add a link simply write "a href='(The link to the web site)'>Text"</p>
+	<a href ="http://www.youtube.com">YouTube</a>
+	<p>By pressing <a href ="http://www.youtube.com" target = "_blank">this Link</a> the link will open in a new tab</p>
+		<hr />
+		<h2>How to make lists</h2>
+		<!--This section shows how to make a list-->
+	<p>To make an ordered list:</p>
+		<ol><!--The ol stands for organised list-->
+		<li>Write "ol"</li>
+		<li>Then write "li" below it</li>
+		<li>Then write what you want to make as a list</li>
+		</ol>
+	<p>To make an unordered list:</p>
+		<ul><!--The ul stands for unorganised list-->
+		<li>Write "ul"</li>
+		<li>Then write "li" again below it, similar to the previous method</li>
+		<li>Then, again, write what you want to make as a list</li>
+		</ul>
+		<hr />
+		<h2>How to make tables</h2>
+		<!--This section shows how to make tables-->
+	<p>To make a table you have to do the following: </p>
+		<ol>
+			<li>Define the table by writing "table"</li>
+			<li>Then divide the table in rows using "tr"</li>
+			<li>Then divid the rows into columns by using "td"</li>
+		</ol>
+	<p>Here is a table of fruits: </p>
+		<table border="2"> <!--By adding a boder, it will help you see the table-->
+			<tr>
+				<td> Apple </td>
+				<td> Bananna </td>
+				<td> Kiwis </td>
+			</tr>
+		</table>
+
+	<p>To make a cell span more than one column you use "colspan='Any integer'" then add a break to leave it blank or add whatever you want in that cell</p>
+		<table border="2"> <!--By adding a boder, it will help you see the table-->
+			<tr>
+				<td> Apple </td>
+				<td> Bananna </td>
+				<td> Kiwis </td>
+			</tr>
+			<tr>
+				<td><br /></td>
+				<td colspan="2"><br /></td>
+			</tr>
+		</table>
+	<p>You can align the table by using the "align='center'" attribute inside the table tag</p>
+		<table border="2" align="center"> <!--By adding a boder, it will help you see the table-->
+			<tr>
+				<td> Apple </td>
+				<td> Bananna </td>
+				<td> Kiwis </td>
+			</tr>
+			<tr>
+				<td><br /></td>
+				<td colspan="2"><br /></td>
+			</tr>
+		</table>
+	<p>And you can change the colour of the cell by adding "bgcolor='Anycolor'" in the table column tag td</p>
+		<table border="2" align="center"> <!--By adding a boder, it will help you see the table-->
+			<tr>
+				<td bgcolor="red"> Apple </td>
+				<td bgcolor="yellow"> Bananna </td>
+				<td bgcolor="green"> Kiwis </td>
+			</tr>
+			<tr>
+				<td><br /></td>
+				<td colspan="2"><br /></td>
+			</tr>
+		</table>
+		<hr />
+		<h2>Block level and inline elements</h2>
+		<!--This section shows how to use Block level and inline elements-->
+	<p>Block level elements always starts from a new line, such as headers "h1", paragraphs "p" etc</p>
+	<p>Inline elements are normally displayed without line breaks, for example, writing strong texts using "strong", or bold texts using "b" etc</p>
+	<p>The "div" element is a block level element that is often used as a container for other HTML elements. <br />This can be used to style blocks of content. For example:</p>
+
+	<h3>Headline</h3>
+	<div style="background-color:green;color:white;padding:10px;"> 
+	<!--The first part changes the background, while the second part changes the colour of the texts and the third part describes the size of the block where the content goes into-->
+	<p>Here you can add content within the green box</p>
+	</div> 
+
+	<p>The "span" element is an inline element that is used as a container for some text.</p>
+	<p>For example <span style="color:red">This</span> is what span can do to texts</p>
+	<p>There are different types of elements that can be used as block level or inline elements:</p>
+
+		<table border="2" align="center">
+			<tr>
+				<td>APPLET</td>
+				<td>Embedded Java applet</td>
+			</tr>
+			<tr>
+				<td>INFRAME</td>
+				<td>Inline Frame</td>
+			</tr>
+			<tr>
+				<td>INS</td>
+				<td>Inserted text</td>
+			</tr>
+			<tr>
+				<td>MAP</td>
+				<td>Image map</td>
+			</tr>
+			<tr>
+				<td>OBJECT</td>
+				<td>Embedded Object</td>
+			</tr>
+			<tr>
+				<td>SCRIPT</td>
+				<td>Script within an HTML document</td>
+			</tr>
+		</table>
+	<p>Bare in mind that you can insert inline elements inside block elements.<br />For example you can have multiple "span" elements inside "div" elements</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
+<!--This is to use as reference for HTML coding-->
