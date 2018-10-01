@@ -12,8 +12,9 @@ This is to make all the paragraphs have a white text and a grey back ground
 	padding:10px;
 }
 /*
-This is refrenced in the HTML file and will style the correct reference
+This is refrenced in the HTML file and will style the correct reference. This is called ID and class selector
 */
 
+.first{font-size: 200%;}
 
 
