@@ -1,0 +1,19 @@
+/*p {
+	color:white;
+	background-color: gray;
+}
+This is to make all the paragraphs have a white text and a grey back ground
+*/
+
+
+#intro {
+	color:white;
+	background-color:green;
+	padding:10px;
+}
+/*
+This is refrenced in the HTML file and will style the correct reference
+*/
+
+
+
