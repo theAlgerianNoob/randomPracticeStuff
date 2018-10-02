@@ -126,8 +126,19 @@ body{
 	font-variant: small-caps;
 }
 
+/*Font colour*/
 
+.colourExample{
+	color: red;
+}
 
+.colourExample2{
+	color: #0000FF;
+}
+
+.colourExample3{
+	color: red;
+}
 
 
 
