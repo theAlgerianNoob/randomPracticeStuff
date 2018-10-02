@@ -34,6 +34,7 @@ This is Descendants Selectors
 body{
 	font-family: Arial;
 }
+
 /*Font Types*/
 .serif{
 	font-family: "Times New Roman",Times,serif;
@@ -54,6 +55,7 @@ body{
 .fantasy{
 	font-family: Blippo,fantasy;
 }
+
 /*Font sizes*/
 .xx-small{
 	font-size: xx-small;
@@ -82,6 +84,7 @@ body{
 .xx-large{
 	font-size: xx-large;
 }
+
 /*Font styles*/
 .normal{
 	font-style: normal;
@@ -109,9 +112,6 @@ body{
 	font-weight: bolder;
 }
 
-.weight em1{
-	font-weight: 100;
-}
 
 
 
