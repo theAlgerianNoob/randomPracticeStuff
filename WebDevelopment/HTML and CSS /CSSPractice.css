@@ -28,3 +28,28 @@ Class selector changing the font size
 This is Descendants Selectors
 */
 
+/*This top half is for the firsthtml file and the bottom half is for the HTMLCSSPractice file*/
+
+body{
+	font-family: Arial;
+}
+
+.serif{
+	font-family: "Times New Roman",Times,serif;
+}
+
+.sansserif{
+	font-family: Helvetica,Arial,sansserif;
+}
+
+.monospace{
+	font-family: "Courier New",Courier,monospace;
+}
+
+.cursive{
+	font-family: Florence,cursive
+}
+
+.fantasy{
+	font-family: Blippo,fantasy;
+}
