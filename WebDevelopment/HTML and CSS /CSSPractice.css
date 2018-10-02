@@ -30,10 +30,11 @@ This is Descendants Selectors
 
 /*This top half is for the firsthtml file and the bottom half is for the HTMLCSSPractice file*/
 
+/*General Font Type*/
 body{
 	font-family: Arial;
 }
-
+/*Font Types*/
 .serif{
 	font-family: "Times New Roman",Times,serif;
 }
@@ -53,3 +54,51 @@ body{
 .fantasy{
 	font-family: Blippo,fantasy;
 }
+/*Font sizes*/
+.xx-small{
+	font-size: xx-small;
+}
+
+.x-small{
+	font-size: x-small;
+}
+
+.small{
+	font-size: small;
+}
+
+.medium{
+	font-size: medium;
+}
+
+.large{
+	font-size: large;
+}
+
+.x-large{
+	font-size: x-large;
+}
+
+.xx-large{
+	font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
