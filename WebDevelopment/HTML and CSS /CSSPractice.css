@@ -112,6 +112,19 @@ body{
 	font-weight: bolder;
 }
 
+/*Font variant*/
+
+.normalVar{
+	font-variant: normal;
+}
+
+.smallVar{
+	font-variant: small-caps;
+}
+
+.headingVar{
+	font-variant: small-caps;
+}
 
 
 
