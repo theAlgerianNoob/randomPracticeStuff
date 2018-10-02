@@ -82,10 +82,36 @@ body{
 .xx-large{
 	font-size: xx-large;
 }
+/*Font styles*/
+.normal{
+	font-style: normal;
+}
+.italic{
+	font-style: italic;
+}
+.oblique{
+	font-style: oblique;
+}
+/*Font weight*/
+.normal{
+	font-weight: normal;
+}
 
+.light{
+	font-weight: lighter;
+}
 
+.bold{
+	font-weight: bold;
+}
 
+.bolder{
+	font-weight: bolder;
+}
 
+.weight em1{
+	font-weight: 100;
+}
 
 
 
