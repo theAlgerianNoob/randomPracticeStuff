@@ -258,17 +258,43 @@ span.Pixel{
 	text-transform: lowercase;
 }
 
+/*Letter spacing*/
 
+.positive{
+	letter-spacing: 4px;
+}
 
+.negative{
+	letter-spacing: -1.5px;
+}
 
+/*Word spacing*/
 
+.PosWordSp{
+	word-spacing: 20px;
+}
 
+.NegWordSp{
+	word-spacing: -5px;
+}
 
+/*White spacing*/
 
+.nowrap{
+	white-space: nowrap;
+}
 
+.pre{
+	white-space: pre;
+}
 
+.pre-line{
+	white-space: pre-line;
+}
 
-
+.pre-wrap{
+	white-space: pre-wrap;
+}
 
 
 
