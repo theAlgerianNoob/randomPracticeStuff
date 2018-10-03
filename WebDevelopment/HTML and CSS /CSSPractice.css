@@ -195,6 +195,82 @@ span.Pixel{
 	vertical-align: middle;
 }
 
+/*Text decoration*/
+
+.none{
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+.inherit{
+	text-decoration: inherit;
+	font-variant: small-caps;
+}
+
+.overline{
+	text-decoration: overline;
+	font-variant: small-caps;
+}
+
+.underline{
+	text-decoration: underline;
+	font-variant: small-caps;
+}
+
+.overline{
+	text-decoration: overline;
+	font-variant: small-caps;
+}
+
+.line-through{
+	text-decoration: line-through;
+	font-variant: small-caps;
+}
+
+.blink{
+	text-decoration: blink;
+}
+
+/*Text Indenting*/
+
+.indent{
+	text-indent: 60px;
+}
+
+/*Text Shadow*/
+
+.shadow{
+	color: blue;
+	text-shadow: 5px 2px 4px grey;
+}
+
+/*Text transform*/
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.lowercase{
+	text-transform: lowercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
