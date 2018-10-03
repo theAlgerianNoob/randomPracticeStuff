@@ -140,7 +140,7 @@ body{
 	color: red;
 }
 
-/*Text alignment*/
+/*Text alignment horizontally*/
 
 .Left{
 	text-align: left;
@@ -153,6 +153,49 @@ body{
 .Right{
 	text-align: right;
 }
+
+/*Text alignment vertically*/
+
+.Top{
+	vertical-align: top;
+}
+
+.Middle{
+	vertical-align: middle;
+}
+
+.Bottom{
+	vertical-align: bottom;
+}
+
+span.Baseline{
+	vertical-align: baseline;
+}
+
+span.Sub{
+	vertical-align: sub;
+}
+
+span.Super{
+	vertical-align: super; 
+}
+
+span.Pixel{
+	vertical-align: -10px;
+}
+
+.main{
+	height: 150px; width: 500px;
+	background-color: LightSkyBlue;
+	display: inline-table;
+}
+
+.paragraph{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
 
 
 
