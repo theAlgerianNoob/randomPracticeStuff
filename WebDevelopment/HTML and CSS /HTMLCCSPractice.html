@@ -312,8 +312,105 @@
 		<p class="fixedImage">This is when the image is fixed.</p>
 		<p class="scrollImage">This is when the image is set to scroll.</p>
 
+		<hr>
+		<h2 align="Center" class="headingVar">Styling Lists</h2>
+		<hr>
 
+		<p>Knowing that there are two different types of lists, ordered and unordered, we can also style these lists further making them more appealing. By using the list-style-type function, we can have a wide range of lists styles. For example here are a few:</p>
 
+		<ol class="lowerAlpha">
+			<li>Lower-alpha - using lowercase alphabets instead of numbers.</li>
+		</ol>
+		<ul class="circularLists">
+			<li>Circle - using circular bulletpints that arent filled.</li>
+		</ul>
+		<ul class="squareLists">
+			<li>Square - instead of circular bullet points we use squares.</li>
+		</ul>
+
+		<p>You can also use two other style types properties:</p>
+		<ul>
+			<li>List-style-image :- Here you can use an image instead of a bulletpoint</li>
+			<li>List-style-position :- This specifies the position of the marker box, it can be either inside or outside.</li>
+		</ul>
+
+		<p>However, There is a way by simply using all these properties by simply using one line. And that is by using the list-style property. By using the list-style property you can declare:</p>
+
+		<ul class="oneLineListStyle">
+			<li>list-style-type</li>
+			<li>list-style-position</li>
+			<li>list-style-image</li>
+		</ul>
+
+		<p>All in one line by simply using the list-style property.</p>
+
+		<hr>
+		<h2 align="Center" class="headingVar">Tabel Properties</h2>
+		<hr>
+
+		<p>With borders not only can you define the boder collapse and the border spacing, but you can also caption your tables using the caption function. With this function, you have to specify whether you want it at the top or the bottom of the table.</p>
+
+		<table class="tableMod" border="1">
+			<caption class="tableCaption">Caption of a table</caption>
+			<tr>
+				<th>Table heading 1</th>
+				<th>Table heading 2</th>
+				<th>Table heading 3</th>
+			</tr>
+			<tr>
+				<td>Table item 1</td>
+				<td>Table item 2</td>
+				<td>Table item 3</td>
+			</tr>
+			<tr>
+				<td>Table item 4</td>
+				<td>Table item 5</td>
+				<td>Table item 6</td>
+			</tr>
+			<tr>
+				<td>Table item 7</td>
+				<td>Table item 8</td>
+				<td>Table item 9</td>
+			</tr>
+		</table>
+
+		<p>If you have emtpy cells, you can also hide them using the emtpy-cells function followed by hide.</p>
+
+		<table class="tableMod" border="1">
+			<caption class="tableCaption">Caption of a table</caption>
+			<tr>
+				<th>Table heading 1</th>
+				<th>Table heading 2</th>
+			</tr>
+			<tr>
+				<td>Table item 1</td>
+				<td></td>
+			</tr>
+		</table>
+
+		<p>Table layout is a function specifies the how width of the table columns is calculated. There are two values:</p>
+		<ul>
+			<li>Auto :- when column or cell width is not specified, the column width will be in proportion to the amount of content in the cells that make up the column.</li>
+			<li>Fixed :- When column or cell width is not specified, the column width will not be affected by the amount of content in the cells that make up the column.</li>
+		</ul>
+
+		<table class="autoLayout" border="1">
+			<caption class="tableCaption">Auto Table Layout</caption>
+			<tr>
+				<td width="10%">Table heading 1 500.000.000.000</td>
+				<td width="90%">Table heading 2 20.000</td>
+			</tr>
+		</table>
+
+		<table class="fixedLayout" border="1">
+			<caption class="tableCaption">Fixed Table Layout</caption>
+			<tr>
+				<td width="10%">Table heading 1 500.000.000.000</td>
+				<td width="90%">Table heading 2 20.000</td>
+			</tr>
+		</table>
+
+		<p>By default the table layout will always be set to auto.</p>
 
 	</div>
 

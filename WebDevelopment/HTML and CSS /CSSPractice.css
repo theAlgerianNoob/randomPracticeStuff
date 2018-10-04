@@ -409,6 +409,45 @@ span.Pixel{
 	background-attachment: scroll;
 }
 
+/*Styling lists*/
+
+.lowerAlpha{
+	list-style-type: lower-alpha;
+}
+
+.circularLists{
+	list-style-type: circle;
+}
+
+.squareLists{
+	list-style-type: square;
+}
+
+.oneLineListStyle{
+	list-style: square outside none;
+}
+
+/*Table properties*/
+
+.tableMod{
+	border-collapse: separate;
+	border-spacing: 5px 5px;
+	empty-cells: hide;
+}
+
+.tableCaption{
+	caption-side: top;
+}
+
+.autoLayout{
+	table-layout: auto;
+}
+
+.fixedLayout{
+	table-layout: fixed;
+}
+
+
 
 
 
