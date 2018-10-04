@@ -379,6 +379,35 @@ span.Pixel{
 	width: 100%;
 }
 
+/*Background properties*/
+
+.backgroundcolour{
+	background-color: lightskyblue;
+}
+
+.backgroundImage{
+	height: 628px;
+	width: 500px;
+	background-image: url("Image.gif");
+}
+
+.repeatBackgroundImage{
+	height: 628px;
+	background-image: url("Image.gif");
+	background-repeat: repeat-x;
+}
+
+.fixedImage{
+	height: 628px;
+	background-image: url("Image.gif");
+	background-attachment: fixed;
+}
+
+.scrollImage{
+	height: 628px;
+	background-image: url("Image.gif");
+	background-attachment: scroll;
+}
 
 
 
