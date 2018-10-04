@@ -447,10 +447,24 @@ span.Pixel{
 	table-layout: fixed;
 }
 
+/*Links properties*/
 
+a:hover{
+	color: red;
+}
 
+a:link{
+	text-decoration: none;
+}
 
+/*Mouse cursor properties*/
 
+.cursor{
+	height:436;
+	width: 401;
+	background-image: url("CursorTypesResize.png");
+	cursor: pointer;
+}
 
 
 
