@@ -466,5 +466,65 @@ a:link{
 	cursor: pointer;
 }
 
+/*Display properties*/
+
+.block{
+	display: block;
+}
+
+.inline{
+	display: inline;
+}
+
+/*Visibility properties*/
+
+.hiddenElement{
+	visibility: hidden;
+}
+
+/*Positioning properties*/
+
+.staticElement{
+	position: static;
+}
+/* This is how yuo fix text.
+.fixedElement{
+	position: fixed;
+	top: 30px;
+	right: 5px;
+}
+*/
+
+.relativeElement{
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+
+/*Floating properties*/
+
+.floatImage{
+	float: right;
+}
+
+.floatImage2{
+	float: left;
+}
+
+.floatText{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 

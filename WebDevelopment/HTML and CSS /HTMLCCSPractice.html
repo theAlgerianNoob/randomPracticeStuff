@@ -438,13 +438,80 @@
 
 		<p class="cursor"></p>
 
+		<hr>
+		<h2 align="Center" class="headingVar">Display Properties</h2>
+		<hr>
 
+		<p>The display property determines how every element on the page behaves. For example:</p>
 
+		<p>To use the display block you simply write display:block and the result is this:</p>
 
+		<p class="block">First paragraph.</p>
+		<p class="block">Second paragraph.</p>
+		<p class="block">Third paragraph.</p>
+		<p class="block">Fourth paragraph.</p>
+		<p class="block">Fifth paragraph.</p>
 
+		<p>To use the display inline you simply write display:inline and the result is this:</p>
 
+		<p class="inline">First paragraph.</p>
+		<p class="inline">Second paragraph.</p>
+		<p class="inline">Third paragraph.</p>
+		<p class="inline">Fourth paragraph.</p>
+		<p class="inline">Fifth paragraph.</p>
 
+		<p>To hide a display, write display:none, that way the paragraph will be written.</p>
 
+		<hr>
+		<h2 align="Center" class="headingVar">Visibility Properties</h2>
+		<hr>
+
+		<p>With the visibilty property, an element can be invisibly but still have an affect on your layout. for example.</p>
+
+		<h2>Here is a title</h2>
+
+		<div class="hiddenElement">
+			This section is invisible, hence you will not see this text
+		</div>
+
+		<p>The element above is hidden, however notice how there is still a large gap between this text and the title.</p>
+
+		<hr>
+		<h2 align="Center" class="headingVar">Positioning</h2>
+		<hr>
+
+		<p>Elements can be positioned using the positioning properties of CSS. it can place elements behind another and specify what should happen when and elements content is too big.</p>
+
+		<h4 class="headingVar">Static</h5>
+
+		<p>By default, elements are placed in static. To use static, simply write position:static and you will get the result below:</p>
+
+		<p>This is not static</p>
+		<p class="staticElement">This is static</p>
+
+		<h4 class="headingVar">Fixed</h5>
+		
+		<p>Similar to inserting images, text can also be fixed and remain in its position even when scrolling. if you want to do it simply write position:fixed. Then what you do is you specify the position using top, right, bottom, left.</p>
+
+		<p>For example if you want to fix text with parameter top to be 30 px and the righ to be 5px of the screen you do position:fixed theen write top: 30px and right 5px.</p>
+
+		<h4 class="headingVar">Relative</h5>
+
+		<p>There is also something called relative were an element is position relative to its normal position. For example:</p>
+
+		<p>Here is a sentence with a <span class="relativeElement">word</span> missing.</p>
+
+		<hr>
+		<h2 align="Center" class="headingVar">Floating</h2>
+		<hr>
+
+		<p>With the floating property, you can push an element either right or left allowing other elements to wrap around it. There are only three values: left, right and none. This is usually used when you have an image and text together like the example below, however, it is possibe to use it for two text elements aswell.</p>
+
+		<img class="floatImage" src="Image.gif">
+		<p>This is a non float paragraph.</p>
+
+		<img class="floatImage2" src="Image.gif">
+		<p class="floatText">This is a float paragraph.</p>
 
 
 
