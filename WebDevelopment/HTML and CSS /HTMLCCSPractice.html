@@ -512,33 +512,81 @@
 
 		<img class="floatImage2" src="Image.gif">
 		<p class="floatText">This is a float paragraph.</p>
+		<p class="clearingText"></p>
 
+		<hr>
+		<h2 align="Center" class="headingVar">Clearing</h2>
+		<hr>
 
+		<p>When you use float, the elements after the floats tends to be affected because it thinks it is in the float group. To avoid this, you need to use the clear property to avoid this problem. Example:</p>.
 
+		<img class="floatImage2" src="Image.gif">
+		<p class="clearingText">Here is a paragraph that comes after the float</p>
 
+		<hr>
+		<h2 align="Center" class="headingVar">Overflow</h2>
+		<hr>
 
+		<p>When an element cannot contain all its data, the content tends to go out of bounds of the element. With the overflow property, it specifies the behaviour that occurs when an element's content goes out of bounds of the element. For example here is a piece of text that was taken from the sololearn example that clearly overflows.</p>
 
+		<div class="soloLearnExample">
+		This text is inside the div element, which has a blue 
+		background color and is floated to the left. We set a specific 
+		height and width for the div element, and as you can see, 
+		the content cannot fit. 
+		</div>
 
+		<p class="clearingText"></p>
+		<!--I just added these to seperate the text ase they were overlaping-->
+		<div class="hiddenElement">
+			This section is invisible, hence you will not see this text.
+			Something
+			Something
+		</div>
+		<div class="hiddenElement">
+			This section is invisible, hence you will not see this text.
+			Something
+			Something
+		</div>
 
+		<p>Now we apply the overflow property by ading overflow:scroll and this is what happens:</p>
 
+		<div class="soloLearnExample2">
+		This text is inside the div element, which has a blue 
+		background color and is floated to the left. We set a specific 
+		height and width for the div element, and as you can see, 
+		the content cannot fit. 
+		</div>
 
+		<p class="clearingText"></p>
 
+		<p>The overflow property has four values:</p>
+		<ul>
+			<li>Visible</li>
+			<li>Scroll</li>
+			<li>Hidden</li>
+			<li>Auto</li>
+		</ul>
 
+		<p>Auto and scroll pretty much do the same thing, they add a scroll. Visible just allows the centent to overflow, and hidden just clipped off.<br></p>
 
+		<hr>
+		<h2 align="Center" class="headingVar">The Z-Index</h2>
+		<hr>
 
+		<p>When elements tend to overlap one another, the z-index can help deal with that. It can specify which element goes on top. Usually the last element is the one that tends to overlap, but for this example (Again, taken from sololearn) you will see what happens when we change the z-index values.</p>
 
+		<div class="blue">Blue</div>
+		<div class="red">Red</div>
 
+		<p>In this example, we have two boxes overlaping, of course, since the red element was the last one, it overlaps the blue one, but if we change the index, we can make the blue overlap the red, like so, using z-index:"Any number"</p>
 
+		<div class="blue2">Blue</div>
+		<div class="red2">Red</div>
 
-
-
-
-
+		<hr>
+		<h2 align="Center" class="headingVar">And that should be all for CSS and HTML</h2>
+		<hr>
 	</div>
-
-
-
-
-
 </body>
 </html>

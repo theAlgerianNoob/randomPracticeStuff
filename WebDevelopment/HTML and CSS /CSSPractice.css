@@ -515,16 +515,64 @@ a:link{
 	float: left;
 }
 
+/*Clearing properties*/
 
+.clearingText{
+	clear: both;
+}
 
+/*Overflow properties*/
 
+.soloLearnExample{
+	width: 150px;
+    height: 150px;
+    background-color: LightBlue;
+    float: left;
+}
 
+.soloLearnExample2{
+	width: 150px;
+    height: 150px;
+    background-color: LightBlue;
+    float: left;
+    overflow: scroll;
+}
 
+/*The Z-index*/
 
+.blue { 
+    background-color: #8EC4D0;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+}
+.red {
+    background-color: #FF4D4D;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    margin-top: -50px;
+    margin-left: 50px;
+}
 
-
-
-
-
-
-
+.blue2{ 
+    background-color: #8EC4D0;
+    position: relative;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    z-index: 2;
+}
+.red2{
+    background-color: #FF4D4D;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    margin-top: -50px;
+    margin-left: 50px;
+    z-index: 1;
+}
