@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 and CSS3 Practice</title>
+	<link rel="stylesheet" type="text/css" href="CSS3.css">
+</head>
+<body>
+	<head><h1 class="headingVar" align="center">Differences between HTML with CSS and HTML5 with CSS3</h1></head>
+
+	<hr>
+	<h2 class="headingVar">The Header Element</h2>
+	<hr>
+	<p class="boxSection">The header element is a new way to define the header of a website. Normally you would use div followed by id then write header, but with HTML5 you can simply do that in the body element.</p>
+	<p class="clearBox"></p>
+
+	<hr>
+	<h2 class="headingVar">The Footer Element</h2>
+	<hr>
+	<p class="boxSection">The footer element is usually found at the bottom of the site. Stuff like contact details and other minor details can be found in the footer.</p>
+	<p class="clearBox"></p>
+
+	<hr>
+	<h2 class="headingVar">The Nav Element</h2>
+	<hr>
+	<p class="boxSection">The nav element is a new element added to HTML5. It represents a section of the page that links the user to navigate to other pages or a certain section wihtin the page. For example:</p>
+	<p class="clearBox"></p>
+
+	<nav>
+		<ul>
+			<li><a href="#">Weblink 1</a></li>
+			<li><a href="#">Weblink 2</a></li>
+			<li><a href="#">Weblink 3</a></li>
+		</ul>
+	</nav>
+
+	<hr>
+	<h2 class="headingVar">Making Circles</h2>
+	<hr>
+	<p class="boxSection">In CSS3, you can manipulate the rectangles and turn them into circles using "border-radius" as seen below:</p>
+	<p class="clearBox"></p>
+	<p class="Circles"></p>
+
+	<hr>
+	<h2 class="headingVar">Making Box Shadows</h2>
+	<hr>
+	<p class="boxSection">In CSS3 you can also add shadows to your box elements using the box shadow element. With this element, there is a specific order the values are placed in.</p>
+	<p class="clearBox"></p>
+	<ul>
+		<li>Horizonatl Offset</li>
+		<li>Vertical Offset</li>
+		<li>Blur</li>
+		<li>Spread</li>
+		<li>Colour</li>
+	</ul>
+	<p class="boxSection">With the exception of the blur values, all the other values can be a negative value to give a shadow in the opposite direction. The two examples below will demonstrate how the box shadows will work. The first example is with positive values while the second example will have negative values, again with the exception of the blur value.</p>
+	<p class="clearBox"></p>
+	<p class="PosBoxShadow"></p>
+	<p><br></p>
+	<p class="NegBoxShadow"></p>
+
+	<hr>
+	<h2 class="headingVar">The Article Element</h2>
+	<hr>
+	<p class="boxSection">The article element is an element that allows you to store an article within the body element. This works very similar to the div element in HTML4. The structure of the article element works as follows:</p>
+	<p class="clearBox"></p>
+	<p class="ArticleImg"></p>
+	<article>
+		<h1 class="headingVar">This is a mock article</h1>
+		<section>
+			<p>This is a section. You usually add content in this part of the article.</p>
+		</section>
+		<aside>
+			<p>This is the aside part where you would have your secondary information.</p>
+		</aside>
+	</article>
+
+	<hr>
+	<h2 class="headingVar">Adding Audio</h2>
+	<hr>
+	<p class="boxSection">With HTML5 you can add audio to your site. And there are two ways to do so. The first uses the source atribute while the second uses "source" element inside the audio element. Here are the examples below:</p>
+	<p class="clearBox"></p>
+	<p>Example 1:</p>
+	<audio src="StarFall.mp3" controls autoplay>This text here will shwo up if your browser does not support the format.</audio>
+	<p>Example 2:</p>
+	<audio controls loop>
+		<source src="StarFall.mp3" type="audio/mpeg">
+	</audio>
+	<p>With the audio controls element you can make the audio autoplay or loop by simply writing "autoplay" or "loop" in the audio element. As seen above.</p>
+
+	<hr>
+	<h2 class="headingVar">Adding Video</h2>
+	<hr>
+	<p class="boxSection">Similar to audio, video can also be added in the same two different ways. And have two specific values Autoplay and Loop. Here are the two examples:</p>
+	<p class="clearBox"></p>
+	<p>Example 1:</p>
+	<video controls autoplay>
+		<source src="test.mp4" type="video/mp4">
+		Video is not supported by your browser
+	</video>
+	<p>Example 2:</p>
+	<video controls loop>
+   		<source src="test.mp4" type="video/mp4">
+   		Video is not supported by your browser
+	</video>
+	<p class="clearBox"></p>
+
+	<hr>
+	<h2 class="headingVar">Adding a Progress Bar</h2>
+	<hr>
+	<p class="boxSection">Progress bars can also be added onto HTML5 however, they usually work in conjunction with javascript to dynamically display a tasks progress. However, for this example we will just set a value. There are two attributes within the progress bar element, "max" and "value". max specifies how much work the task needs in order to complete. And value specifies how much of the task has been completed. The example below will show a progress bar at 65% completed.</p>
+	<p class="clearBox"></p>
+	<p>Progress bar at 65%:</p><progress min="0" value="65" max="100"></progress>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
