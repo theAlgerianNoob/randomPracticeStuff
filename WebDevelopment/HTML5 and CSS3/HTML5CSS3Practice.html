@@ -57,6 +57,47 @@
 	<p class="PosBoxShadow"></p>
 	<p><br></p>
 	<p class="NegBoxShadow"></p>
+	<p class="boxSection">With the box shadow element, you can also insert a shadow within the element. This can be done by simply adding the "inset" attribute befaore adding the other values such as size and colour. Here is an example:</p>
+	<p class="clearBox"></p>
+	<p class="InnerShadow"></p>
+	<p class="boxSection">In addition to inner shadows, you can add multiple layers of shadows for one box by simply adding a comma. You can have multiple inner shadows or outer shadows. here are two examples, the first with two inner shadows and the second with three outer shadows:</p>
+	<p class="clearBox"></p>
+	<p>Example 1:</p>
+	<p class="MultiLayered1"></p>
+	<p>Example 2:</p>
+	<p class="MultiLayered2"></p>
+
+	<hr>
+	<h2 class="headingVar">Adding Text Shadow</h2>
+	<hr>
+	<p class="boxSection">Similar to boxes, shadows can also be added onto text, either one layer or multiple layers of shadows can be added. Here are two examples of shadows being added to text. The image below shows how the text shadow property is applied:</p>
+	<p class="clearBox"></p>
+	<p class="txtShadowImg"></p>
+	<p>For this first example, a shadow is being added to this heading.</p>
+	<h2 class="txtShadow1">Text Shadow 1</h2>
+	<p>For this second example, I will add another layer of shadow onto the first example.</p>
+	<h2 class="txtShadow2">Text Shadow 1</h2>
+	<p>Note however, there are a few things that are needed to be taken into consideration when making shadows for texts:</p>
+
+	<ul>
+		<li>When you place a shadow close to the text, it is usually not as blurred as when you place a shadow further away from the text. </li>
+		<li>When you place a shadow that is close, it implies one of the three things. Either the underlying surface is close, the light source is close or both the underlying surface and light source is close.</li>
+		<li>A shadow that is close usually is darker compared to a shadow that is distant because less light can get in between the shape and the underlying surface.</li>
+	</ul>
+	
+	<hr>
+	<h2 class="headingVar">The Transparency Effect</h2>
+	<hr>
+	<p class="boxSection">With CSS3, you can add a cool transparency effect for, for example, a navigation bar. Here is an example of a navigation bar:</p>
+	<p class="clearBox"></p>
+	<nav class="navBar">
+		<ul class="navBarBackground">
+			<li class="linkLayout"><a href="#" class="navLink">Link 1</a></li>
+			<li class="linkLayout"><a href="#" class="navLink">Link 2</a></li>
+			<li class="linkLayout"><a href="#" class="navLink">Link 3</a></li>
+			
+		</ul>
+	</nav>
 
 	<hr>
 	<h2 class="headingVar">The Article Element</h2>
@@ -111,7 +152,31 @@
 	<p class="clearBox"></p>
 	<p>Progress bar at 65%:</p><progress min="0" value="65" max="100"></progress>
 
+	<hr>
+	<h2 class="headingVar">Psuedo Classes and Elements</h2>
+	<hr>
+	<p class="boxSection">In CSS3, Psuedo-Classes is a technique that allow us to style elements or just part of teh element, that exists within a document tree without using any scripts such as JavaScript. Psuedo-Elements are used to select specifc parts of an element. In order to use either Psuedo-Class or Psuedo-Element you use semi-colons. For the Psuedo-Class you use one semi-colon ":", with Psuedo-Element you use two "::".</p>
+	<p class="clearBox"></p>
+	<p>There are two commonly used psuedo classes; there is the ":first-child" class, and there is the ":last-child" class. The ":first-child" class matches an element that is the first child element of some other element. The ":last-child" class matches an element that is the last child element of some other element. In the example below, you will see the first-child of parent one and the last-child of parent 2 highlighted in green.</p>
+	<h4>Parent 1</h4>
+	<div id="parent1">
+		<p>This paragraph is the first child of the parent1</p>
+		<p>This paragraph is the middle child of the parent1</p>
+		<p>This paragraph is the last child of the parent1</p>
+	</div>
 
+	<h4>Parent 2</h4>
+	<div id="parent2">
+		<p>This paragraph is the first child of the parent2</p>
+		<p>This paragraph is the middle child of the parent2</p>
+		<p>This paragraph is the last child of the parent2</p>
+	</div>
+	<p>With Psuedo-Elements, Their are 5 different elements that can be used. The image below reveals the five Psuedo Elements:</p>
+	<p class="PsuedoElementsImg"></p>
+	<p class="PsuedoElementExample">Now if you were to select this text here, you will see that it is different you were to select the other texts above. In fact for this text, it will highlight green with white text one it.</p>
+
+
+	
 
 
 

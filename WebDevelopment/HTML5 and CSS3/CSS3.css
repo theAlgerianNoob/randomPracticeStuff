@@ -56,6 +56,74 @@ Making Box Shadows
 	background-color: green;
 	box-shadow:  -10px -10px 5px -5px #888888;
 }
+
+.InnerShadow{
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	box-shadow: inset 10px 10px 5px 5px#888888;
+}
+
+.MultiLayered1{
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	box-shadow: inset 10px 10px 5px 5px#888888, inset -10px -10px 5px 5px#888888;
+}
+
+.MultiLayered2{
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	box-shadow: 0 0 10px 4px #FF6347, 0 0 10px 30px #FFDAB9, 30px 0 20px 30px #B0E0E6;
+}
+/*
+Adding Text Shadow
+*/
+.txtShadowImg{
+	height: 338px;
+	width: 661px;
+	background-image: url("textShadow.png");
+}
+
+.txtShadow1{
+	text-shadow: 5px 10px 2px #93968f;
+}
+
+.txtShadow2{
+	text-shadow: 5px 10px 2px #93968f, -3px 6px 5px #58d1e3;
+}
+/*
+The Transparency Effect
+*/
+.navBar{
+	padding: 50px 0;
+	min-width: 500px
+}
+
+.navBarBackground{
+	background: linear-gradient(90deg, 
+     rgba(255, 255, 255, 0) 0%, 
+     rgba(255, 255, 255, 0.2) 25%, 
+     rgba(255, 255, 255, 0.2) 75%, 
+     rgba(255, 255, 255, 0) 100%);
+	background-color: lightskyblue;
+   	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.linkLayout{
+	display: inline-block;
+}
+
+.navLink{
+	padding: 10px; 
+   	color: #FFFFFF;
+   	font-size: 18px;
+   	font-family: Arial;
+   	text-decoration: none;
+   	display: block;
+}
 /*
 Adding Images
 */
@@ -63,6 +131,28 @@ Adding Images
 	height: 588px;
 	width: 582px;
 	background-image: url("ArticleImg.png");
+}
+/*
+Psuedo Classes and Elements
+*/
+#parent1 p:first-child{
+	color: green;
+	text-decoration: underline;
+}
+
+#parent2 p:last-child{
+	color: green;
+	text-decoration: underline;
+}
+.PsuedoElementsImg{
+	height: 224px;
+	width: 724px;
+	background-image: url("PsuedoElements.png"); 
+}
+
+.PsuedoElementExample::selection{
+	background: #8bc34a;
+   	color: #fff;
 }
 
 
