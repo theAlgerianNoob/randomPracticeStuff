@@ -1,0 +1,27 @@
+.Heading{
+	text-align: center;
+	font-variant: small-caps;
+	font-family: Lucida, sans-serif;
+	border-style: solid;
+	padding: 10px;
+	height: 90px;
+	width: 98.5%;
+}
+
+.Grid{
+	display: grid;
+	grid-gap: 5px;
+	grid-auto-rows: minmax(100px, auto);
+	/*grid-template-columns: 1fr 2fr*/
+	grid-template-columns: repeat(1, 1fr 2fr);
+}
+
+.Grid > div{
+	background: #eee;
+	padding: 1em;
+}
+
+.Grid > div:nth-child(odd){
+	background: #ddd;
+	padding: 1em;
+}
